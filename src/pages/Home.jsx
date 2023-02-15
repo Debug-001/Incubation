@@ -224,7 +224,7 @@ function Home() {
 							</div>
 						</div>
 						<div className="col">
-							<div className="card border-light border-1 d-flex justify-content-center p-4">
+							<div className="card  mt-5 border-light border-1 d-flex justify-content-center p-4">
 								<div className="card-body">
 									<div className="bs-icon-lg bs-icon-rounded bs-icon-secondary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-4 bs-icon">
 										<svg
@@ -413,7 +413,7 @@ function Home() {
 						<div className="row">
 							<div className="col-md-6">
 								<h3
-									className="display-6 fw-bold pb-md-4"
+									className="display-6 fw-bold pb-md-4 px-3"
 									style={{ fontSize: "34px" }}
 								>
 									Fostering a culture of collaboration and&nbsp;&nbsp;
@@ -428,7 +428,7 @@ function Home() {
 							</div>
 						</div>
 						<div className="row gy-4 gy-md-0">
-							<div className="col-md-6 d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
+							<div className="col-md-6 d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center px-3">
 								<div>
 									<div className="row gy-2 row-cols-1 row-cols-sm-2">
 										<div className="col text-center text-md-start">
@@ -690,17 +690,11 @@ function Home() {
 									className="col-md-6 order-first order-md-last"
 									style={{ minHeight: "250px" }}
 								>
-									<img
-										className="w-8\0 h-100 fit-contain pt-4 px-3 pt-md-0"
+									<img id="img"
+										className="flex h-100 fit-contain pt-4 px-3 mx-2 pt-md-0"
 										src="img/illustrations/img1.jpg"
 										style={{
-											width: "446px",
-											borderRadius: "9px",
-											borderTopLeftRadius: "5px",
-											paddingLeft: "0px",
-											marginRight: "16px",
-											paddingRight: "0px",
-											// git borderRadius: "10px 10px 10px 10px",
+											width: "446px"
 										}}
 									/>
 								</div>
@@ -714,9 +708,9 @@ function Home() {
 					{/* Start: Pricing Clean */}
 					<div className="container py-4 py-xl-5">
 						<div className="row mb-5">
-							<div className="col-md-8 col-xl-6 text-center mx-auto">
-								<h2
-									className="display-6 fw-bold mb-4"
+							<div className="col-md-6 col-xl-8 text-center mx-auto px-3 ">
+								<h2 id="textpad"
+									className="display-6 fw-bold mb-4 "
 									style={{ fontSize: "35.88px", height: "163.1px" }}
 								>
 									Launch Your Dreams into
@@ -725,7 +719,7 @@ function Home() {
 									<span className="underline">Incubation Center</span>&nbsp; and
 									Build the Future.
 								</h2>
-								<p
+								<p id="text-pad"
 									className="text-muted"
 									style={{
 										color: "rgb(0,0,0)",
@@ -780,27 +774,11 @@ function Home() {
 										</a>
 									</div>
 								</div>
-								<span className="badge bg-warning position-absolute top-0 end-0 rounded-bottom-left text-uppercase text-primary">
-									Most Popular
-								</span>
-								<span className="badge bg-warning position-absolute top-0 end-0 rounded-bottom-left text-uppercase text-primary">
-									Most Popular
-								</span>
-								<span className="badge bg-warning position-absolute top-0 end-0 rounded-bottom-left text-uppercase text-primary">
-									Most Popular
-								</span>
-								<span className="badge bg-warning position-absolute top-0 end-0 rounded-bottom-left text-uppercase text-primary">
-									Most Popular
-								</span>
-								<span className="badge bg-warning position-absolute top-0 end-0 rounded-bottom-left text-uppercase text-primary">
-									Most Popular
-								</span>
 							</div>
 							<div className="col">
-								<div className="card border-warning border-2 h-100">
+								<div className="card border-0 h-100">
 									<div className="card-body d-flex flex-column justify-content-between p-4">
 										<div>
-											<h6 className="fw-bold text-muted" />
 											<h6
 												className="fw-bold text-muted"
 												style={{ fontSize: "20px" }}
@@ -810,36 +788,31 @@ function Home() {
 											</h6>
 											<h4
 												className="display-5 fw-bold mb-4"
-												style={{ fontSize: "28.632px", marginTop: "28px" }}
+												style={{ fontSize: "30.632px", marginTop: "26px" }}
 											>
-												An Eco-friendly Ecommerce shop
+												A Healthcarre service portal
 											</h4>
 											<ul className="list-unstyled">
 												<li className="d-flex mb-2">
 													<span>
-														<span style={{ color: "rgb(43, 42, 42)" }}>
-															We are friendly e-commerce for eco-friendly
+													We are friendly e-commerce for eco-friendly
 															products. Eko-mart is a platform that provides
 															people to choose eco-friendly products for their
 															daily needs.
-														</span>
 														<br />
 														<br />
 													</span>
-												</li>
-												<li className="d-flex mb-2">
-													<span className="bs-icon-xs bs-icon-rounded bs-icon me-2" />
 												</li>
 												<li className="d-flex mb-2" />
 											</ul>
 										</div>
 										<a
-											className="btn btn-warning"
+											className="btn btn-primary"
 											role="button"
 											href="https://ekomart.co/"
 											style={{ borderRadius: "15px" }}
 										>
-											Eko-mart
+											Eko-mart&nbsp;
 										</a>
 									</div>
 								</div>
@@ -1041,7 +1014,7 @@ function Home() {
 							{/* Start: Social Icons */}
 							<div className="col-12 col-md-3">
 								<div className="fw-bold d-flex align-items-center mb-2">
-									<span>Brand</span>
+									<span>CIIC Vision</span>
 								</div>
 								<p className="text-muted">
 									Sem eleifend donec molestie, integer quisque orci aliquam.
@@ -1050,7 +1023,7 @@ function Home() {
 							{/* End: Social Icons */}
 							{/* Start: About */}
 							<div className="col-sm-4 col-md-3 text-lg-start d-flex flex-column">
-								<h3 className="fs-6 fw-bold">About</h3>
+								<h3 className="fs-6 fw-bold">About Us</h3>
 								<ul className="list-unstyled">
 									<li>
 										<a href="#">Company</a>
@@ -1059,7 +1032,7 @@ function Home() {
 										<a href="#">Team</a>
 									</li>
 									<li>
-										<a href="#">Legacy</a>
+										<a href="#">Job openings</a>
 									</li>
 								</ul>
 							</div>
@@ -1068,7 +1041,16 @@ function Home() {
 						<hr />
 						<div className="text-muted d-flex justify-content-between align-items-center pt-3">
 							<p className="mb-0">
-								Copyright © CHRIST (Deemed to be University) 2020
+
+								Copyright © CIIC CHRIST University, NCR 2023
+							<p className="text-center nav-link ">Website built by 
+							 <a href="https:/ombhatt.com">
+
+						
+							&nbsp;
+							Om Sharma
+							</a>
+							 </p>
 							</p>
 							<ul className="list-inline mb-0">
 								<li className="list-inline-item">

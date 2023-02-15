@@ -2,6 +2,30 @@
 	margin-left: -10rem;
 }
 
+*{
+	text-decoration: none !important;
+}
+
+
+.card{
+	box-shadow:  10px 10px 10px rgba(102, 196, 255, 0.2);
+}
+
+.card:hover{
+	box-shadow: 10px 10px 10px 10px rgba(0, 156, 254, 0.2);
+	transition: all .4s ease-in-out !important;
+}
+
+.accordion-button:hover{
+	box-shadow:  10px 10px 10px rgba(102, 196, 255, 0.2);
+	transition: all .4s ease-in-out !important;
+
+}
+
+.btn:hover{
+	box-shadow: rgba(0, 179, 255, 0.12) 0px 2px 4px 0px,rgba(0, 179, 255, 0.32) 0px 2px 16px 0px;
+}
+
 #btn {
 	color: rgba(255, 255, 255);
 	background: rgb(27, 42, 84);
@@ -28,4 +52,26 @@
 		margin-left: 2rem;
 		margin-top: 1rem;
 	}
+}
+
+
+
+@media screen and (max-width:1024px) {
+#logo{
+	margin-left: 0 ;
+}
+
+#img{
+	padding-right: 1.7rem !important;
+}
+
+#text-pad{
+	padding-top: 4rem;
+}
+
+#textpad{
+	line-height: 45px;
+}
+
+
 }
