@@ -700,7 +700,7 @@ function Home() {
 											paddingLeft: "0px",
 											marginRight: "16px",
 											paddingRight: "0px",
-											borderRadius: "10px 10px 10px 10px",
+											// git borderRadius: "10px 10px 10px 10px",
 										}}
 									/>
 								</div>
