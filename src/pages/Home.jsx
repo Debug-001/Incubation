@@ -224,7 +224,7 @@ function Home() {
 							</div>
 						</div>
 						<div className="col">
-							<div className="card  mt-5 border-light border-1 d-flex justify-content-center p-4">
+							<div className="card  mt-5npm border-light border-1 d-flex justify-content-center p-4">
 								<div className="card-body">
 									<div className="bs-icon-lg bs-icon-rounded bs-icon-secondary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-4 bs-icon">
 										<svg

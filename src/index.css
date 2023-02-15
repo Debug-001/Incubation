@@ -40,6 +40,10 @@
 }
 
 @media (max-width: 768px) {
+	#img{
+		margin-right: 2rem !important;
+	}
+
 	#logo {
 		margin-left: 0 !important;
 	}
