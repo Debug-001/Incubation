@@ -1,4 +1,7 @@
 import React from "react";
+import img1 from '/illustrations/img1.jpg'
+import img2 from '/illustrations/img2.jpg'
+import img3 from '/illustrations/img3.jpg'
 
 function Home() {
 	return (
@@ -67,11 +70,33 @@ function Home() {
 				{/* End: Navbars */}
 				<header className="pt-5">
 					{/* Start: Hero Clean Reverse */}
-
 					<div
-						className="container pt-4 pt-xl-5">
+						className="container-fullwidth pt-4 pt-xl-5">
 						<div className="row pt-5">
-							<div className="col-md-8 text-center text-md-start mx-auto">
+							<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img src={img1} class="d-block w-100" alt="..."/>
+									</div>
+									<div class="carousel-item">
+								
+										<img src={img2} class="d-block w-100" alt="..."/>
+									</div>
+									<div class="carousel-item">
+										<img src={img3} class="d-block w-100" alt=""/>
+									</div>
+								</div>
+								<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Previous</span>
+								</button>
+								<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Next</span>
+								</button>
+							</div>
+
+							{/* <div className="col-md-8 text-center text-md-start mx-auto">
 								<div className="text-center">
 									<h1 className="display-4 fw-bold pt-5 mb-5">
 										Working on making a better Future&nbsp;
@@ -115,7 +140,7 @@ function Home() {
 										}}
 									/>
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 					{/* End: Hero Clean Reverse */}
