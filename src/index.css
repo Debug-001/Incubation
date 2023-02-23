@@ -65,8 +65,21 @@
 } */
 
 
+nav{
+  background-color: rgb(214, 253, 251) !important;
+  font-weight: bold;
+}
 
- 
+.nav-link:hover{
+  color: rgb(0, 0, 0) !important;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+
+#a{
+  color: white !important;
+}
+
 #one{margin-bottom: 3rem;}
 
 .box::before {
