@@ -38,7 +38,7 @@ const Team = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/startup">
+                <a className="nav-link" href="/startups">
                   Startups
                 </a>
               </li>

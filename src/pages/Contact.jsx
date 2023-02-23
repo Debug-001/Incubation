@@ -1,6 +1,12 @@
 import React from 'react'
+// import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+    // const form = useRef();
+    // const sendEmail = (e) => {
+    //     e.preventDefault();
+    //     emailjs.sendForm('service_4b8zuq4', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    // };
     return (
         <>
             <div>
