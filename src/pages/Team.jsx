@@ -63,14 +63,16 @@ const Team = () => {
       </nav>
 
       <section className="py-5 mt-5">
-
         {/* Start: Hero Clean Reverse */}
         <div className="container py-4 py-xl-5">
           <div className="row gy-4 gy-md-0">
             <div className="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
               <div style={{ maxWidth: '350px' }}>
                 <h1 className="display-6 fw-bold mb-4" style={{ marginRight: '-26px' }}>Meet our Dynamic and Talented&nbsp;<span className="underline">Team</span>.</h1>
-                <p className="my-4">Turning your ideas into Reality.</p><a className="btn btn-primary btn-lg me-2" role="button" href="#" style={{ paddingRight: '17px', marginLeft: '-11px', paddingLeft: '20px' }}>Tech Team</a><a className="btn btn-outline-primary btn-lg" role="button" href="#" style={{ marginRight: '-16px', paddingRight: '20px', paddingLeft: '21px' }}>Expert Pool</a>
+                <p className="my-4">Turning your ideas into Reality.</p>
+                <a className="btn btn-primary btn-lg me-2 mx-1" role="button" href="/tech" style={{ paddingRight: '17px', marginLeft: '-11px', paddingLeft: '20px' }}>Tech Team</a>
+                <a className="btn btn-outline-primary btn-lg" role="button" href="/expert" style={{ marginRight: '-16px', paddingRight: '20px', paddingLeft: '21px' }}>Expert Pool</a>
+                <a id="core" className="btn btn-outline-primary btn-lg" role="button" href="/core">Core Team</a>
               </div>
             </div>
             <div className="col-md-6">
@@ -78,7 +80,7 @@ const Team = () => {
             </div>
           </div>
           <div className="text-center mt-5">
-            <p className="mb-4" style={{ fontSize: '1.6rem' }}>More than&nbsp;<span className="bg-warning p-1"><strong>50+</strong></span>&nbsp; best students from across the campus.</p><a href="#"> <img className="m-3" src="img/2%20copy.png" style={{ width: '76px' }} /></a><a href="#"> <img className="m-3" src="logo.png" style={{ width: '76px' }} /></a><a href="#"> <img className="m-3" src="img/2.png" style={{ width: '76px' }} /></a><a href="#"> </a><a href="#"> </a>
+            <p className="mb-4" style={{ fontSize: '1.6rem' }}>More than&nbsp;<span className="bg-warning p-1"><strong>50+</strong></span>&nbsp; best students from across the campus.</p><a href="https://ekomart.co/"> <img className="m-3" src="img/2%20copy.png" style={{ width: '76px' }} /></a><a href="https://webversed.netlify.app/"> <img className="m-3" src="/webversed.png" style={{ width: '76px' }} /></a><a href="#"> <img className="m-3" src="img/2.png" style={{ width: '76px' }} /></a><a href="#"> </a><a href="#"> </a>
           </div>
         </div>{/* End: Hero Clean Reverse */}
       </section>{/* End: Hero With Brands */}
@@ -180,7 +182,7 @@ const Team = () => {
                     <div className="card-body">
                       <div>
                         <h4 className="fw-bold">Tech Team</h4>
-                        <p className="text-muted d-none d-xl-block">Collaborating for Excellence: Building Effective Technical Teams through Communication and Collaboration</p><a className="fw-bold link-primary" href="#">Learn more&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icon-tabler-arrow-narrow-right fs-3">
+                        <p className="text-muted d-none d-xl-block">Collaborating for Excellence: Building Effective Technical Teams through Communication and Collaboration</p><a className="fw-bold link-primary" href="/tech">Learn more&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icon-tabler-arrow-narrow-right fs-3">
                           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                           <line x1={5} y1={12} x2={19} y2={12} />
                           <line x1={15} y1={16} x2={19} y2={12} />
@@ -195,7 +197,7 @@ const Team = () => {
                     <div className="card-body">
                       <div>
                         <h4 className="fw-bold">Expert Pool</h4>
-                        <p className="text-muted d-none d-xl-block">Expertise with Impact: Diversity and Inclusion Drive Quality and Innovation in Expert team.</p><a className="fw-bold link-primary" href="#">Learn more&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icon-tabler-arrow-narrow-right fs-3">
+                        <p className="text-muted d-none d-xl-block">Expertise with Impact: Diversity and Inclusion Drive Quality and Innovation in Expert team.</p><a className="fw-bold link-primary" href="/expert">Learn more&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icon-tabler-arrow-narrow-right fs-3">
                           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                           <line x1={5} y1={12} x2={19} y2={12} />
                           <line x1={15} y1={16} x2={19} y2={12} />

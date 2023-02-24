@@ -2,7 +2,7 @@ import React from 'react'
 
 const Startup = () => {
   return (
-    <div>
+    <>
     {/* Start: Navbar Centered Links */}
     <nav
 					className="navbar navbar-light navbar-expand-md fixed-top navbar-shrink py-3"
@@ -110,15 +110,15 @@ const Startup = () => {
               <div className="card-body d-flex flex-column justify-content-between p-4">
                 <div className="pb-4">
                   <h6 className="fw-bold text-muted" />
-                  <h6 className="fw-bold text-muted" style={{fontSize: '20px'}}><img src="img/2.png" style={{width: '50px'}} />PeerShala</h6>
-                  <h4 className="display-5 fw-bold mb-4" style={{fontSize: '28.632px', marginTop: '28px'}}>Experience a new way of learning!</h4>
+                  <h6 className="fw-bold text-muted" style={{fontSize: '20px'}}><img src="/webversed.png" style={{width: '60px'}} />Webversed</h6>
+                  <h4 className="display-5 fw-bold mb-4" style={{fontSize: '28.632px', marginTop: '28px'}}>E-services for your business</h4>
                   <h4 className="display-5 fw-bold mb-4" />
                   <ul className="list-unstyled">
-                    <li className="d-flex mb-2"><span>Peershala is here to connect students around the globe to become a guide and teachers for each other, forming a great bond for a lifetime and helping in each other’s struggle in learning something new every day.&nbsp;</span></li>
+                    <li className="d-flex mb-2"><span>Webversed aims to provide various E-services for exponential growth of your business at  extremely affordable prices.&nbsp;</span></li>
                     <li className="d-flex mb-2" />
                     <li className="d-flex mb-2" />
                   </ul>
-                </div><a className="btn btn-primary" role="button" href="https://www.linkedin.com/company/peershala/" style={{borderRadius: '15px'}}>PeerShala</a>
+                </div><a className="btn btn-primary" role="button" href="https://webversed.netlify.app/" style={{borderRadius: '15px'}}>Webvesed</a>
               </div>
             </div>
           </div>
@@ -246,7 +246,7 @@ const Startup = () => {
 					</div>
 				</footer>
 
-  </div>
+  </>
   
   )
 }
