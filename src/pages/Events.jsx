@@ -72,7 +72,8 @@ const Events = () => {
             <div class="row">
               <div class="col-md-10 col-12 mx-auto">
                 <h1 id='h1text' class="text-left main-heading">Live /
-                  <span className="underline"> Upcoming</span>&nbsp;
+                &nbsp;
+                  <span id='underline' className="underline">Upcoming</span>&nbsp;
                   Events
                   <div class="loader"></div>
                 </h1>
@@ -82,8 +83,8 @@ const Events = () => {
                       <img src={Image} className="top-image" style={{ "width": "65%", "margin-left": "6rem", "margin-top": "10rem" }} alt="herosection_image" />
                     </figure>
                   </div>
-                  <div class="col-md-6 col-12 hero-text d-flex justify-content-center align-items-start flex-column">
-                    <h1 style={{"margin-top":"8rem"}} className='display-4 fw-bold pb-4'>SYNERGY
+                  <div id="mtext" class="col-md-6 col-12 hero-text d-flex justify-content-center align-items-start flex-column">
+                    <h1 style={{"margin-top":"3rem"}} className='display-4 fw-bold pb-4'>SYNERGY
                       <div class="loading">
                         <svg width="64px" height="48px">
                           <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="back"></polyline>
@@ -102,15 +103,15 @@ const Events = () => {
                       <img src={Image2} className="top-image" style={{ "width": "65%", "margin-left": "6rem", "margin-top": "10rem" }} alt="herosection_image" />
                     </figure>
                   </div>
-                  <div class="col-md-6 col-12 hero-text d-flex justify-content-center align-items-start flex-column">
-                    <h1 style={{"margin-top":"8rem"}} className='display-4 fw-bold pb-4'>Ideathon for Society 2.0
-                    <img style={{"margin-left":"10px", "margin-bottom":"6px"}} classname="bulb" src={bulb} alt="bulb" />
+                  <div id="mtext" class="col-md-6 col-12 hero-text d-flex justify-content-center align-items-start flex-column">
+                    <h1 style={{"margin-top":"3rem"}} className='display-4 fw-bold pb-4'>Ideathon for Society 2.0
+                    <img style={{"margin-left":"10px", "margin-bottom":"6px"}} id="bulb" classname="bulb" src={bulb} alt="bulb" />
                     
                     </h1>
                     <p className="fs-5 text-muted mb-5">
                     Christ Innovation and Incubation Centre (CIIC) is organizing an event called 'Ideathon for Society 5.0' on Saturday, 17th September 2022. Some stalls will also be set up on the new basketball court, which will be an opportunity for all the small business owners and budding entrepreneurs to promote their business, be it food, product sales, or services. Since the number of stalls will be limited, they will be allotted on a first come first serve basis.
                     </p>
-                    <button class="btn btn-style btn-primary" onClick={(e) => { e.preventDefault(); window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdJmKi2SWWRbUDn1SZo_iD-turNw4c73TF3EQsRQ5oEyTdSVw/viewform'; }}>Read more</button>
+                    <button class="btn btn-style btn-primary " onClick={(e) => { e.preventDefault(); window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdJmKi2SWWRbUDn1SZo_iD-turNw4c73TF3EQsRQ5oEyTdSVw/viewform'; }}>Read more</button>
                   </div>
                 </div>
               </div>
@@ -120,7 +121,7 @@ const Events = () => {
 
 
         {/* contact and footer section starts here */}
-        <section className="py-4 py-xl-5">
+        <section className="py-4 py-xl-5 mt-5">
           <div className="container">
             <div className="text-white bg-primary border rounded border-0 border-primary d-flex flex-column justify-content-between flex-lg-row p-4 p-md-5">
               <div className="pb-2 pb-lg-1">

@@ -425,6 +425,10 @@ margin-left: 1rem;
     margin-top: 3rem !important;
   }
 
+  .nav-link:hover{
+    background: none;
+  }
+
   #core{
     margin-left: 4px;
   }
@@ -451,6 +455,31 @@ margin-left: 1rem;
     margin-left: 2rem;
     margin-top: 1rem;
   }
+
+  #h1text{
+    font-size: 3rem;
+  }
+  #underline{
+    margin-left: -12px;
+  }
+
+  .loader{
+    margin-top: -7.5rem;
+  }
+
+  .loading{
+    margin-top: -3rem;
+    margin-left: 12rem;
+  }
+ #mtext{
+  margin-left: 1rem;
+  padding-right: 1rem;
+ }
+
+ #bulb{
+  margin-left: -10px !important ;
+  margin-top: 5px;
+ }
 }
 
 @media screen and (max-width: 1024px) {

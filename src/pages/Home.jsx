@@ -424,7 +424,7 @@ function Home() {
 								</h3>
 							</div>
 							<div className="col-md-6 pt-4">
-								<p className="text-muted mb-4">
+								<p className="text-muted mb-4  mx-4">
 									At CIIC, we have our amazing teams helping push further
 									towards Success every second.
 								</p>
@@ -500,7 +500,7 @@ function Home() {
 													<circle cx={12} cy={12} r={4} />
 													<path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"></path>
 												</svg>
-												<h5 className="fw-bold mb-0 ms-2">Emcee</h5>
+												<h5 className="fw-bold mb-0 ms-2 mx-5">Emcee</h5>
 											</div>
 											<p className="text-muted my-3">
 												Lorem, ipsum dolor sit amet consectetur adipisicing elit.

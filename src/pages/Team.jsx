@@ -68,7 +68,7 @@ const Team = () => {
           <div className="row gy-4 gy-md-0">
             <div className="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
               <div style={{ maxWidth: '350px' }}>
-                <h1 className="display-6 fw-bold mb-4" style={{ marginRight: '-26px' }}>Meet our Dynamic and Talented&nbsp;<span className="underline">Team</span>.</h1>
+                <h1 className="display-6 fw-bold mb-4 mt-5" style={{ marginRight: '-26px' }}>Meet our Dynamic and Talented&nbsp;<span className="underline">Team</span></h1>
                 <p className="my-4">Turning your ideas into Reality.</p>
                 <a className="btn btn-primary btn-lg me-2 mx-1" role="button" href="/tech" style={{ paddingRight: '17px', marginLeft: '-11px', paddingLeft: '20px' }}>Tech Team</a>
                 <a className="btn btn-outline-primary btn-lg" role="button" href="/expert" style={{ marginRight: '-16px', paddingRight: '20px', paddingLeft: '21px' }}>Expert Pool</a>
@@ -89,7 +89,7 @@ const Team = () => {
         <div className="container py-4 py-xl-5">
           <div className="row mb-5">
             <div className="col-md-8 col-xl-6">
-              <h3 className="display-6 fw-bold pb-4 mb-4">Teams that make your work more&nbsp;<span className="underline">Productive</span></h3>
+              <h3 className="display-6 fw-bold ">Teams that make your work more&nbsp;<span className="underline">Productive</span></h3>
             </div>
             <div className="col-md-8 col-xl-6 pt-4">
               <p className="text-muted">Synergy in Action: Our Effective Teamwork Drives Innovation and Growth</p>

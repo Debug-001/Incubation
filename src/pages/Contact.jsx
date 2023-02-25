@@ -18,7 +18,7 @@ const Contact = () => {
                     <div className="container">
                         <img
                             id="logo"
-                            src="img/1672134599113.jpg"
+                            src="img/logo.png"
                             style={{ width: "90px" }}
                         />
                         <a className="navbar-brand d-flex align-items-center" href="/">
@@ -94,40 +94,109 @@ const Contact = () => {
                         </div>
                     </div>
                 </section>{/* End: Contact Details */}
+
                 {/* Start: Newsletter Subscription Centered */}
                 <section className="py-4 py-xl-5 mb-5">
                     <div className="container">
                         <div className="row mb-2">
                             <div className="col-md-8 col-xl-6 text-center mx-auto">
-                                <h2 className="display-6 fw-bold mb-5"><span className="pb-3 underline">FAQ<br /></span></h2>
-                                <p className="text-muted mb-5">Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis nostra nunc. Vestibulum dui eget ultrices.</p>
+                                <h2 className="display-6 fw-bold mb-5">
+                                    <span className="pb-3 underline">FAQs</span>
+                                </h2>
+                                <p className="text-muted mb-5" />
                             </div>
                         </div>
                         <div className="row mb-2">
                             <div className="col-md-8 mx-auto">
-                                <div className="accordion text-muted" role="tablist" id="accordion-1">
+                                <div
+                                    className="accordion text-muted"
+                                    role="tablist"
+                                    id="accordion-1"
+                                >
                                     <div className="accordion-item">
-                                        <h2 className="accordion-header" role="tab"><button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1" aria-expanded="true" aria-controls="accordion-1 .item-1">Aenean arcu euismod aliquam, volutpat consequat?</button></h2>
-                                        <div className="accordion-collapse collapse show item-1" role="tabpanel" data-bs-parent="#accordion-1">
+                                        <h2 className="accordion-header" role="tab">
+                                            <button
+                                                className="accordion-button"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#accordion-1 .item-1"
+                                                aria-expanded="true"
+                                                aria-controls="accordion-1 .item-1"
+                                            >
+                                                Who can benefit from an incubation center?
+                                            </button>
+                                        </h2>
+                                        <div
+                                            className="accordion-collapse collapse show item-1"
+                                            role="tabpanel"
+                                            data-bs-parent="#accordion-1"
+                                        >
                                             <div className="accordion-body">
-                                                <p>Maecenas diam volutpat, erat quis enim cras lobortis vivamus donec tempor. Congue ultrices donec turpis vivamus. Laoreet aenean metus, mi nunc massa feugiat duis. Pharetra erat consequat purus curae quisque, etiam accumsan class.</p>
-                                                <p className="mb-0">Commodo rutrum quisque curabitur habitasse, suspendisse etiam.</p>
+                                                <p>
+                                                    Anyone with an innovative idea, a new product or a
+                                                    start-up company can benefit from an incubation
+                                                    centre. It is especially useful for early-stage
+                                                    start-ups and entrepreneurs who need assistance in
+                                                    refining their business model, building a team,
+                                                    finding funding and scaling their operations.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="accordion-item">
-                                        <h2 className="accordion-header" role="tab"><button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-2" aria-expanded="false" aria-controls="accordion-1 .item-2">Lorem quam erat placerat mollis, rhoncus senectus?</button></h2>
-                                        <div className="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-1">
+                                        <h2 className="accordion-header" role="tab">
+                                            <button
+                                                className="accordion-button collapsed"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#accordion-1 .item-2"
+                                                aria-expanded="false"
+                                                aria-controls="accordion-1 .item-2"
+                                            >
+                                                How do I apply for an Incubation Centre program?
+                                            </button>
+                                        </h2>
+                                        <div
+                                            className="accordion-collapse collapse item-2"
+                                            role="tabpanel"
+                                            data-bs-parent="#accordion-1"
+                                        >
                                             <div className="accordion-body">
-                                                <p className="mb-0">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                                <p className="mb-0">
+                                                    Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                                    Cras justo odio, dapibus ac facilisis in, egestas eget
+                                                    quam. Donec id elit non mi porta gravida at eget
+                                                    metus.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="accordion-item">
-                                        <h2 className="accordion-header" role="tab"><button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-3" aria-expanded="false" aria-controls="accordion-1 .item-3">Iaculis accumsan id, facilisis proin ipsum velit neque?</button></h2>
-                                        <div className="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
+                                        <h2 className="accordion-header" role="tab">
+                                            <button
+                                                className="accordion-button collapsed"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#accordion-1 .item-3"
+                                                aria-expanded="false"
+                                                aria-controls="accordion-1 .item-3"
+                                            >
+                                                What services and resources does an Incubation Center
+                                                provide?
+                                            </button>
+                                        </h2>
+                                        <div
+                                            className="accordion-collapse collapse item-3"
+                                            role="tabpanel"
+                                            data-bs-parent="#accordion-1"
+                                        >
                                             <div className="accordion-body">
-                                                <p className="mb-0">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                                <p className="mb-0">
+                                                    Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                                    Cras justo odio, dapibus ac facilisis in, egestas eget
+                                                    quam. Donec id elit non mi porta gravida at eget
+                                                    metus.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -135,7 +204,7 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                </section>{/* End: Newsletter Subscription Centered */}
+                </section>
                 {/* Start: Footer Multi Column */}
                 <footer>
                     <div className="container py-4 py-lg-5">
