@@ -152,11 +152,11 @@ nav {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
 
-.bulb{
-margin-left: 1rem;
+.bulb {
+  margin-left: 1rem;
 }
 
-#h1text{
+#h1text {
   margin-top: 13rem;
   margin-left: 6rem;
   font-size: 3rem;
@@ -170,8 +170,7 @@ margin-left: 1rem;
   align-items: center;
 }
 
-
-#core{
+#core {
   margin-top: 10px;
   margin-left: 4rem;
   padding-right: 15px;
@@ -193,9 +192,9 @@ margin-left: 1rem;
 .profile-card:hover {
   border-radius: 10px;
   height: 260px;
-  -webkit-box-shadow: 9px 10px 17px 8px rgba(0,0,0,0.56);
-  -moz-box-shadow: 9px 10px 17px 8px rgba(0,0,0,0.56);
-  box-shadow: 9px 10px 17px 8px rgba(0,0,0,0.56);
+  -webkit-box-shadow: 9px 10px 17px 8px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: 9px 10px 17px 8px rgba(0, 0, 0, 0.56);
+  box-shadow: 9px 10px 17px 8px rgba(0, 0, 0, 0.56);
 }
 
 .profile-card .img {
@@ -317,73 +316,52 @@ margin-left: 1rem;
 }
 
 @keyframes shadowRolling {
-  
   0% {
-    box-shadow: var(--shadow),
-        var(--shadow),
-        var(--shadow),
-        var(--shadow);
+    box-shadow: var(--shadow), var(--shadow), var(--shadow), var(--shadow);
   }
 
   12% {
-    box-shadow: 100px 0 var(--ballcolor),
-        var(--shadow),
-        var(--shadow), 
-        var(--shadow);
+    box-shadow: 100px 0 var(--ballcolor), var(--shadow), var(--shadow),
+      var(--shadow);
   }
 
   25% {
-    box-shadow: 110px 0 var(--ballcolor),
-        100px 0 var(--ballcolor),
-        var(--shadow), 
-        var(--shadow);
+    box-shadow: 110px 0 var(--ballcolor), 100px 0 var(--ballcolor),
+      var(--shadow), var(--shadow);
   }
 
   36% {
-    box-shadow: 120px 0 var(--ballcolor), 
-        110px 0 var(--ballcolor), 
-        100px 0 var(--ballcolor), 
-         var(--shadow);
+    box-shadow: 120px 0 var(--ballcolor), 110px 0 var(--ballcolor),
+      100px 0 var(--ballcolor), var(--shadow);
   }
 
   50% {
-    box-shadow: 130px 0 var(--ballcolor),
-        120px 0 var(--ballcolor),
-        110px 0 var(--ballcolor),
-        100px 0 var(--ballcolor);
+    box-shadow: 130px 0 var(--ballcolor), 120px 0 var(--ballcolor),
+      110px 0 var(--ballcolor), 100px 0 var(--ballcolor);
   }
-  
 
   62% {
-    box-shadow: 200px 0 var(--shadowcolor),
-         130px 0 var(--ballcolor), 
-         120px 0 var(--ballcolor), 
-         110px 0 var(--ballcolor);
+    box-shadow: 200px 0 var(--shadowcolor), 130px 0 var(--ballcolor),
+      120px 0 var(--ballcolor), 110px 0 var(--ballcolor);
   }
 
   75% {
-    box-shadow: 200px 0 var(--shadowcolor),
-        200px 0 var(--shadowcolor),
-        130px 0 var(--ballcolor), 
-        120px 0 var(--ballcolor);
+    box-shadow: 200px 0 var(--shadowcolor), 200px 0 var(--shadowcolor),
+      130px 0 var(--ballcolor), 120px 0 var(--ballcolor);
   }
 
   87% {
-    box-shadow: 200px 0 var(--shadowcolor), 
-        200px 0 var(--shadowcolor), 
-        200px 0 var(--shadowcolor), 
-        130px 0 var(--ballcolor);
+    box-shadow: 200px 0 var(--shadowcolor), 200px 0 var(--shadowcolor),
+      200px 0 var(--shadowcolor), 130px 0 var(--ballcolor);
   }
 
   100% {
-    box-shadow: 200px 0 var(--shadowcolor), 
-        200px 0 var(--shadowcolor),
-        200px 0 var(--shadowcolor),
-        200px 0 var(--shadowcolor);
+    box-shadow: 200px 0 var(--shadowcolor), 200px 0 var(--shadowcolor),
+      200px 0 var(--shadowcolor), 200px 0 var(--shadowcolor);
   }
 }
 
-.loading{
+.loading {
   margin-left: 17rem;
   margin-top: -4.5rem;
 }
@@ -418,22 +396,20 @@ margin-left: 1rem;
   }
 }
 
-
-
 @media (max-width: 768px) {
-  .profile-card{
+  .profile-card {
     margin-top: 3rem !important;
   }
 
-  #ptext{
-    margin-top: 9rem !important;
-  }
+  /* #ptext {
+    display: none;
+  } */
 
-  .nav-link:hover{
+  .nav-link:hover {
     background: none;
   }
 
-  #core{
+  #core {
     margin-left: 4px;
   }
 
@@ -460,47 +436,46 @@ margin-left: 1rem;
     margin-top: 1rem;
   }
 
-  #h1text{
+  #h1text {
     font-size: 3rem;
   }
-  #underline{
+  #underline {
     margin-left: -12px;
   }
 
-  .loader{
+  .loader {
     margin-top: -7.5rem;
   }
 
-  .loading{
+  .loading {
     margin-top: -3rem;
     margin-left: 12rem;
   }
- #mtext{
-  margin-left: 1rem;
-  padding-right: 1rem;
- }
+  #mtext {
+    margin-left: 1rem;
+    padding-right: 1rem;
+  }
 
- #bulb{
-  margin-left: -10px !important ;
-  margin-top: 5px;
- }
+  #bulb {
+    margin-left: -10px !important ;
+    margin-top: 5px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-  
-.profile-card{
-  margin-top: 3rem !important;
-}
+  .profile-card {
+    margin-top: 3rem !important;
+  }
 
-#core{
-  margin-left: 4px;
-}
+  #core {
+    margin-left: 4px;
+  }
 
-.main {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
 
   #logo {
     margin-left: 0;

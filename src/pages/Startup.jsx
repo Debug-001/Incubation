@@ -70,11 +70,11 @@ const Startup = () => {
       <div className="container py-4 py-xl-5">
         <div className="row mb-5" style={{margin: '18px'}}>
           <div className="col-md-8 col-xl-6 text-center mx-auto">
-            <h2 className="display-6 fw-bold mb-4 mt-5" style={{fontSize: '35.88px', height: '163.1px', margin: '21px', paddingRight: '0px', paddingLeft: '0px', marginRight: '-9px'}}>Launch Your Dreams into<br />Reality: Join our &nbsp;<span className="underline">Incubation Center</span>&nbsp; and Build the Future.</h2>
+            <h2 id='h2text' className="display-6 fw-bold mt-5" style={{fontSize: '35.88px', height: '163.1px', margin: '21px', paddingRight: '0px', paddingLeft: '0px', marginRight: '-9px'}}>Launch Your Dreams into<br />Reality: Join our &nbsp;<span className="underline">Incubation Center</span>&nbsp; and Build the Future.</h2>
             <p id="ptext" className="text-muted " style={{color: 'rgb(0,0,0)', fontSize: '22px', fontWeight: 'bold', background: 'var(--bs-white)', marginTop: '5rem'}}>Checkout our Amazing Start-ups</p>
           </div>
         </div>
-        <div className="row gy-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div className="row gy-4 row-cols-1 row-cols-md-2 row-cols-lg-3 mt-5">
           <div className="col">
             <div className="card border-0 h-100">
               <div className="card-body d-flex flex-column justify-content-between p-4">
