@@ -68,7 +68,7 @@ const Startup = () => {
     <section className="py-5">
       {/* Start: Pricing Clean */}
       <div className="container py-4 py-xl-5">
-        <div className="row mb-5" style={{margin: '18px'}}>
+        <div className="row mb-5" style={{"margin": '18px'}}>
           <div className="col-md-8 col-xl-6 text-center mx-auto">
             <h2 id='h2text' className="display-6 fw-bold mt-5" style={{fontSize: '35.88px', height: '163.1px', margin: '21px', paddingRight: '0px', paddingLeft: '0px', marginRight: '-9px'}}>Launch Your Dreams into<br />Reality: Join our &nbsp;<span className="underline">Incubation Center</span>&nbsp; and Build the Future.</h2>
             <p id="ptext" className="text-muted " style={{color: 'rgb(0,0,0)', fontSize: '22px', fontWeight: 'bold', background: 'var(--bs-white)', marginTop: '5rem'}}>Checkout our Amazing Start-ups</p>

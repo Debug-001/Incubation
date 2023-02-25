@@ -400,11 +400,7 @@ nav {
   .profile-card {
     margin-top: 3rem !important;
   }
-
-  /* #ptext {
-    display: none;
-  } */
-
+  
   .nav-link:hover {
     background: none;
   }
