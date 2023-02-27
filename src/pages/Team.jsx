@@ -83,7 +83,10 @@ const Team = () => {
             <p className="mb-4" style={{ fontSize: '1.6rem' }}>More than&nbsp;<span className="bg-warning p-1"><strong>50+</strong></span>&nbsp; best students from across the campus.</p><a href="https://ekomart.co/"> <img className="m-3" src="img/2%20copy.png" style={{ width: '76px' }} /></a><a href="https://webversed.netlify.app/"> <img className="m-3" src="/webversed.png" style={{ width: '76px' }} /></a><a href="#"> <img className="m-3" src="img/2.png" style={{ width: '76px' }} /></a><a href="#"> </a><a href="#"> </a>
           </div>
         </div>{/* End: Hero Clean Reverse */}
-      </section>{/* End: Hero With Brands */}
+      </section>
+      {/* End: Hero With Brands */}
+      
+
       <section>
         {/* Start: Features Centered Icons */}
         <div className="container py-4 py-xl-5">
