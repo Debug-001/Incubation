@@ -108,12 +108,7 @@ const Team = () => {
                       <path d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z" />
                     </svg></div>
                     <h4 className="fw-bold">Designing Team</h4>
-                    <p className="text-muted">Designing the Future: Navigating the Evolving Landscape of Design Teams</p><a className="fw-bold link-primary" href="#">Learn more&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icon-tabler-arrow-narrow-right fs-3">
-                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                      <line x1={5} y1={12} x2={19} y2={12} />
-                      <line x1={15} y1={16} x2={19} y2={12} />
-                      <line x1={15} y1={8} x2={19} y2={12} />
-                    </svg></a>
+                    <p className="text-muted">Designing the Future: Navigating the Evolving Landscape of Design Teams</p><a className="fw-bold link-primary" href="#"></a>
                   </div>
                 </div>
               </div>
@@ -126,12 +121,7 @@ const Team = () => {
                       <path fillRule="evenodd" d="M12 1a2 2 0 0 1 2 2 2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2 2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h10ZM2 12V5a2 2 0 0 1 2-2h9a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1Zm1-4v5a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V8H3Zm12-1H3V5a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v2ZM4.5 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1ZM6 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z" />
                     </svg></div>
                     <h4 className="fw-bold">Documentation Team</h4>
-                    <p className="text-muted">Documenting for Success: Building Effective Documentation Teams</p><a className="fw-bold link-primary" href="#">Learn more&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icon-tabler-arrow-narrow-right fs-3">
-                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                      <line x1={5} y1={12} x2={19} y2={12} />
-                      <line x1={15} y1={16} x2={19} y2={12} />
-                      <line x1={15} y1={8} x2={19} y2={12} />
-                    </svg></a>
+                    <p className="text-muted">Documenting for Success: Building Effective Documentation Teams</p><a className="fw-bold link-primary" href="#"></a>
                   </div>
                 </div>
               </div>
@@ -145,12 +135,9 @@ const Team = () => {
                     <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
                   </svg></div>
                   <div className="d-flex justify-content-between align-items-center">
-                    <h4 className="fw-bold mb-0">Hospitality</h4><a className="fw-bold link-primary" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icon-tabler-arrow-narrow-right fs-3">
-                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                      <line x1={5} y1={12} x2={19} y2={12} />
-                      <line x1={15} y1={16} x2={19} y2={12} />
-                      <line x1={15} y1={8} x2={19} y2={12} />
-                    </svg></a>
+                    <h4 className="fw-bold mb-0">Hospitality</h4><a className="fw-bold link-primary" href="#">
+
+                    </a>
                   </div>
                 </div>
               </div>
@@ -160,12 +147,7 @@ const Team = () => {
                     <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z" />
                   </svg></div>
                   <div className="d-flex justify-content-between align-items-center">
-                    <h4 className="fw-bold mb-0">Emcee</h4><a className="fw-bold link-primary" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icon-tabler-arrow-narrow-right fs-3">
-                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                      <line x1={5} y1={12} x2={19} y2={12} />
-                      <line x1={15} y1={16} x2={19} y2={12} />
-                      <line x1={15} y1={8} x2={19} y2={12} />
-                    </svg></a>
+                    <h4 className="fw-bold mb-0">Emcee</h4><a className="fw-bold link-primary" href="#"></a>
                   </div>
                 </div>
               </div>
@@ -185,7 +167,7 @@ const Team = () => {
                     <div className="card-body">
                       <div>
                         <h4 className="fw-bold">Tech Team</h4>
-                        <p className="text-muted d-none d-xl-block">Collaborating for Excellence: Building Effective Technical Teams through Communication and Collaboration</p><a className="fw-bold link-primary" href="/tech">Learn more&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icon-tabler-arrow-narrow-right fs-3">
+                        <p className="text-muted d-none d-xl-block">Collaborating for Excellence: Building Effective Technical Teams through Communication and Collaboration</p><a className="fw-bold link-primary" href="">&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icon-tabler-arrow-narrow-right fs-3">
                           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                           <line x1={5} y1={12} x2={19} y2={12} />
                           <line x1={15} y1={16} x2={19} y2={12} />
@@ -200,7 +182,7 @@ const Team = () => {
                     <div className="card-body">
                       <div>
                         <h4 className="fw-bold">Expert Pool</h4>
-                        <p className="text-muted d-none d-xl-block">Expertise with Impact: Diversity and Inclusion Drive Quality and Innovation in Expert team.</p><a className="fw-bold link-primary" href="/expert">Learn more&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icon-tabler-arrow-narrow-right fs-3">
+                        <p className="text-muted d-none d-xl-block">Expertise with Impact: Diversity and Inclusion Drive Quality and Innovation in Expert team.</p><a className="fw-bold link-primary" href="/expert">&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icon-tabler-arrow-narrow-right fs-3">
                           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                           <line x1={5} y1={12} x2={19} y2={12} />
                           <line x1={15} y1={16} x2={19} y2={12} />
@@ -221,12 +203,7 @@ const Team = () => {
                     <div className="card-body">
                       <div>
                         <h4 className="fw-bold">Social Media Team</h4>
-                        <p className="text-muted d-none d-xl-block">Social Media in the Future: Navigating the Challenges of Emerging Trends and Technologies</p><a className="fw-bold link-primary" href="#">Learn more&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icon-tabler-arrow-narrow-right fs-3">
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <line x1={5} y1={12} x2={19} y2={12} />
-                          <line x1={15} y1={16} x2={19} y2={12} />
-                          <line x1={15} y1={8} x2={19} y2={12} />
-                        </svg></a>
+                        <p className="text-muted d-none d-xl-block">Social Media in the Future: Navigating the Challenges of Emerging Trends and Technologies</p><a className="fw-bold link-primary" href="#"></a>
                       </div>
                     </div>
                   </div>
@@ -236,12 +213,7 @@ const Team = () => {
                     <div className="card-body">
                       <div>
                         <h4 className="fw-bold">Sponsorship Team</h4>
-                        <p className="text-muted d-none d-xl-block">Unleashing the Power of Marketing: Our Strong Teams Drive Organizational Growth</p><a className="fw-bold link-primary" href="#">Learn more&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icon-tabler-arrow-narrow-right fs-3">
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <line x1={5} y1={12} x2={19} y2={12} />
-                          <line x1={15} y1={16} x2={19} y2={12} />
-                          <line x1={15} y1={8} x2={19} y2={12} />
-                        </svg></a>
+                        <p className="text-muted d-none d-xl-block">Unleashing the Power of Marketing: Our Strong Teams Drive Organizational Growth</p><a className="fw-bold link-primary" href="#"></a>
                       </div>
                     </div>
                   </div>
@@ -262,12 +234,7 @@ const Team = () => {
                     <div className="card-body">
                       <div>
                         <h4 className="fw-bold">Registration Team&nbsp;</h4>
-                        <p className="text-muted d-none d-xl-block">Project Management with Impact:&nbsp; Diversity and Inclusion Drive Quality and Innovation in Project Management Teams.</p><a className="fw-bold link-primary" href="#">Learn more&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icon-tabler-arrow-narrow-right fs-3">
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <line x1={5} y1={12} x2={19} y2={12} />
-                          <line x1={15} y1={16} x2={19} y2={12} />
-                          <line x1={15} y1={8} x2={19} y2={12} />
-                        </svg></a>
+                        <p className="text-muted d-none d-xl-block">Project Management with Impact:&nbsp; Diversity and Inclusion Drive Quality and Innovation in Project Management Teams.</p><a className="fw-bold link-primary" href="#">&nbsp;</a>
                       </div>
                     </div>
                   </div>
@@ -277,12 +244,7 @@ const Team = () => {
                     <div className="card-body">
                       <div>
                         <h4 className="fw-bold">PR Team</h4>
-                        <p className="text-muted d-none d-xl-block">PR Teams that Build Brands: Strategies for Building High-Performing Teams</p><a className="fw-bold link-primary" href="#">Learn more&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icon-tabler-arrow-narrow-right fs-3">
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <line x1={5} y1={12} x2={19} y2={12} />
-                          <line x1={15} y1={16} x2={19} y2={12} />
-                          <line x1={15} y1={8} x2={19} y2={12} />
-                        </svg></a>
+                        <p className="text-muted d-none d-xl-block">PR Teams that Build Brands: Strategies for Building High-Performing Teams</p><a className="fw-bold link-primary" href="#"></a>
                       </div>
                     </div>
                   </div>
