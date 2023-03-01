@@ -1,8 +1,11 @@
 import React from 'react'
+import { BsGithub, BsLinkedin } from 'react-icons/bs'
+import { FaInstagram } from 'react-icons/fa'
+
 
 const Team = () => {
   return (
-    <div>
+    <>
       {/* Start: Navbar Centered Links */}
       <nav
         className="navbar navbar-light navbar-expand-md fixed-top navbar-shrink py-3"
@@ -62,32 +65,253 @@ const Team = () => {
         </div>
       </nav>
 
-      <section className="py-5 mt-5">
+      <header className="pt-5">
         {/* Start: Hero Clean Reverse */}
-        <div className="container py-4 py-xl-5">
-          <div className="row gy-4 gy-md-0">
-            <div className="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
-              <div style={{ maxWidth: '350px' }}>
-                <h1 className="display-6 fw-bold mb-4 mt-5" style={{ marginRight: '-26px' }}>Meet our Dynamic and Talented&nbsp;<span className="underline">Team</span></h1>
-                <p className="my-4">Turning your ideas into Reality.</p>
-                <a className="btn btn-primary btn-lg me-2 mx-1" role="button" href="/tech" style={{ paddingRight: '17px', marginLeft: '-11px', paddingLeft: '20px' }}>Tech Team</a>
-                <a className="btn btn-outline-primary btn-lg" role="button" href="/expert" style={{ marginRight: '-16px', paddingRight: '20px', paddingLeft: '21px' }}>Expert Pool</a>
-                <a id="core" className="btn btn-outline-primary btn-lg" role="button" href="/core">Core Team</a>
+        <div id='teams'
+          className="container pt-xl-5 ">
+          <h3 id='h3' className='display-5 text-center fw-bold  mt-5'>Meet our Dynamic
+            <div id="loader" class="loader"></div> and
+            <span className='underline'> Talented </span>
+            Teams</h3>
+          <div className="row pt-5 " >
+            <div className="col-md-8 text-center text-md-start mx-auto">
+              <div className="text-center">
+                <h1 className="display-6 fw-bold pt-5 mb-5">
+                  CIIC  &nbsp;
+                  <span className="underline">FACULTY</span> CO-ORDINATORS&nbsp;
+                </h1>
+                <p className="fs-5 text-muted mb-5">
+                  Driven by highly experienced faculty members
+                </p>
               </div>
             </div>
-            <div className="col-md-6">
-              <div><img className="rounded img-fluid w-100 fit-cover" style={{ minHeight: '300px' }} src="img/illustrations/img1.jpg" /></div>
+          </div>
+          <div className="main">
+            <div className="profile-card">
+              <div className="img">
+                <img src="https://cdn-icons-png.flaticon.com/512/4128/4128176.png" />
+              </div>
+              <div className="caption">
+                <h3>Dr. Garima Anand</h3>
+                <p>School of Sciences</p>
+              </div>
+            </div>
+            <div className="profile-card">
+              <div className="img">
+                <img src="https://cdn-icons-png.flaticon.com/512/4128/4128176.png" />
+              </div>
+              <div className="caption">
+                <h3>Dr. Vaibhav Tripathi</h3>
+                <p>School of Business & Management</p>
+              </div>
+            </div>
+            <div className="profile-card">
+              <div className="img">
+                <img src="https://cdn-icons-png.flaticon.com/512/4128/4128176.png" />
+              </div>
+              <div className="caption">
+                <h3>Jitendar Bhandari</h3>
+                <p>School of Humanities & Social Sciences</p>
+              </div>
             </div>
           </div>
-          <div className="text-center mt-5">
-            <p className="mb-4" style={{ fontSize: '1.6rem' }}>More than&nbsp;<span className="bg-warning p-1"><strong>50+</strong></span>&nbsp; best students from across the campus.</p><a href="https://ekomart.co/"> <img className="m-3" src="img/2%20copy.png" style={{ width: '76px' }} /></a><a href="https://webversed.netlify.app/"> <img className="m-3" src="/webversed.png" style={{ width: '76px' }} /></a><a href="#"> <img className="m-3" src="img/2.png" style={{ width: '76px' }} /></a><a href="#"> </a><a href="#"> </a>
-          </div>
-        </div>{/* End: Hero Clean Reverse */}
-      </section>
-      {/* End: Hero With Brands */}
-      
+        </div>
 
-      <section>
+        <div
+          className="container pt-xl-5">
+          <div className="row pt-5 " >
+            <div className="col-md-8 text-center text-md-start mx-auto">
+              <div className="text-center">
+                <h1 className="display-6 fw-bold pt-5 mb-5">
+                  CIIC&nbsp;
+                  <span className="underline">STUDENT</span>&nbsp;CO-ORDINATORS
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div className="main">
+            <div className="profile-card">
+              <div className="img">
+                <img src="https://cdn-icons-png.flaticon.com/512/4128/4128176.png" />
+              </div>
+              <div className="caption">
+                <h3>Allan Mathew</h3>
+                <p>6BCA</p>
+                <div className="social-links">
+                  <a href="#"><BsGithub /></a>
+                  <a href="#"><FaInstagram /></a>
+                  <a href="#"><BsLinkedin /></a>
+                </div>
+              </div>
+            </div>
+            <div className="profile-card">
+              <div className="img">
+                <img src="https://cdn-icons-png.flaticon.com/512/4128/4128176.png" />
+              </div>
+              <div className="caption">
+                <h3>Akarsh Jain</h3>
+                <p>6BBA</p>
+                <div className="social-links">
+                  <a href="#"><BsGithub /></a>
+                  <a href="#"><FaInstagram /></a>
+                  <a href="#"><BsLinkedin /></a>
+                </div>
+              </div>
+            </div>
+            <div className="profile-card">
+              <div className="img">
+                <img src="https://cdn-icons-png.flaticon.com/512/4128/4128176.png" />
+              </div>
+              <div className="caption">
+                <h3>Stuti Datta</h3>
+                <p>6BECOH</p>
+                <div className="social-links">
+                  <a href="#"><BsGithub /></a>
+                  <a href="#"><FaInstagram /></a>
+                  <a href="#"><BsLinkedin /></a>
+                </div>
+              </div>
+            </div>
+            <div className="profile-card">
+              <div className="img">
+                <img src="https://cdn-icons-png.flaticon.com/512/4128/4128176.png" />
+              </div>
+              <div className="caption">
+                <h3>Ujjwal Kumar</h3>
+                <p>6BCOMH</p>
+                <div className="social-links">
+                  <a href="#"><BsGithub /></a>
+                  <a href="#"><FaInstagram /></a>
+                  <a href="#"><BsLinkedin /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          className="container pt-xl-5">
+          <div className="row pt-5 " >
+            <div className="col-md-8 text-center text-md-start mx-auto">
+              <div className="text-center">
+                <h1 className="display-6 fw-bold pt-5 mb-5 py-5">
+                  CIIC&nbsp;
+                  <span className="underline">TECH TEAM</span> Members&nbsp;
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div className="main">
+            <div className="profile-card">
+              <div className="img">
+                <img src="https://cdn-icons-png.flaticon.com/512/4128/4128176.png" />
+              </div>
+              <div className="caption">
+                <h3>Om Sharma</h3>
+                <p>Full Stack Developer</p>
+                <div className="social-links">
+                  <a href="#"><BsGithub /></a>
+                  <a href="#"><FaInstagram /></a>
+                  <a href="#"><BsLinkedin /></a>
+                </div>
+              </div>
+            </div>
+            <div className="profile-card">
+              <div className="img">
+                <img src="https://cdn-icons-png.flaticon.com/512/4128/4128176.png" />
+              </div>
+              <div className="caption">
+                <h3>Somnath Paul</h3>
+                <p>UX/UI Designer</p>
+                <div className="social-links">
+                  <a href="#"><BsGithub /></a>
+                  <a href="#"><FaInstagram /></a>
+                  <a href="#"><BsLinkedin /></a>
+                </div>
+              </div>
+            </div>
+            <div className="profile-card">
+              <div className="img">
+                <img src="https://cdn-icons-png.flaticon.com/512/4128/4128176.png" />
+              </div>
+              <div className="caption">
+                <h3>Samyak Jain</h3>
+                <p>Web Developer</p>
+                <div className="social-links">
+                  <a href="#"><BsGithub /></a>
+                  <a href="#"><FaInstagram /></a>
+                  <a href="#"><BsLinkedin /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          className="container pt-xl-5 ">
+          <div className="row pt-5 " >
+            <div className="col-md-8 text-center text-md-start mx-auto">
+              <div className="text-center">
+                <h4 className="display-6 fw-bold  pt-5 mb-5">
+                  CIIC 
+                  <span className='underline'> EXPERT POOL  </span>
+                  MEMBERS
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div className="main mt-5">
+            <div className="profile-card">
+              <div className="img">
+                <img src="https://cdn-icons-png.flaticon.com/512/4128/4128176.png" />
+              </div>
+              <div className="caption">
+                <h3>Om Sharma</h3>
+                <p>Full Stack Developer</p>
+                <div className="social-links">
+                  <a href="#"><BsGithub /></a>
+                  <a href="#"><FaInstagram /></a>
+                  <a href="#"><BsLinkedin /></a>
+                </div>
+              </div>
+            </div>
+            <div className="profile-card">
+              <div className="img">
+                <img src="https://cdn-icons-png.flaticon.com/512/4128/4128176.png" />
+              </div>
+              <div className="caption">
+                <h3>Somnath Paul</h3>
+                <p>UX/UI Designer</p>
+                <div className="social-links">
+                  <a href="#"><BsGithub /></a>
+                  <a href="#"><FaInstagram /></a>
+                  <a href="#"><BsLinkedin /></a>
+                </div>
+              </div>
+            </div>
+            <div className="profile-card">
+              <div className="img">
+                <img src="https://cdn-icons-png.flaticon.com/512/4128/4128176.png" />
+              </div>
+              <div className="caption">
+                <h3>Samyak Jain</h3>
+                <p>Web Developer</p>
+                <div className="social-links">
+                  <a href="#"><BsGithub /></a>
+                  <a href="#"><FaInstagram /></a>
+                  <a href="#"><BsLinkedin /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+
+      {/* End: Hero With Brands */}
+
+
+      <section className='mt-5'>
         {/* Start: Features Centered Icons */}
         <div className="container py-4 py-xl-5">
           <div className="row mb-5">
@@ -376,7 +600,7 @@ const Team = () => {
           </div>
         </div>
       </footer>
-    </div>
+    </>
 
   )
 }
