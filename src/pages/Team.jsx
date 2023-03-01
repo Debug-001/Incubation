@@ -264,7 +264,7 @@ const Team = () => {
                   MEMBERS
                 </h4>
                 <p className="fs-5 text-muted mb-5">
-                  Startups directed by Enterprenuers. 
+                 CIIC Startups directed by Enterprenuers. 
                 </p>
               </div>
             </div>
