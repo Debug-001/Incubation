@@ -126,6 +126,9 @@ const Team = () => {
                   CIIC&nbsp;
                   <span className="underline">STUDENT</span>&nbsp;CO-ORDINATORS
                 </h1>
+                <p className="fs-5 text-muted mb-5">
+                  Students that actively oversee the entire Facility.
+                </p>
               </div>
             </div>
           </div>
@@ -198,6 +201,9 @@ const Team = () => {
                   CIIC&nbsp;
                   <span className="underline">TECH TEAM</span> Members&nbsp;
                 </h1>
+                <p className="fs-5 text-muted mb-5">
+                  Group of advanced skilled Tech Enthusiasts.
+                </p>
               </div>
             </div>
           </div>
@@ -257,6 +263,9 @@ const Team = () => {
                   <span className='underline'> EXPERT POOL  </span>
                   MEMBERS
                 </h4>
+                <p className="fs-5 text-muted mb-5">
+                  Startups directed by Enterprenuers. 
+                </p>
               </div>
             </div>
           </div>
