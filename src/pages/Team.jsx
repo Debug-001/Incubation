@@ -197,7 +197,7 @@ const Team = () => {
           <div className="row pt-5 " >
             <div className="col-md-8 text-center text-md-start mx-auto">
               <div className="text-center">
-                <h1 className="display-6 fw-bold pt-5 mb-5 py-5">
+                <h1 className="display-6 fw-bold pt-5 mb-5">
                   CIIC&nbsp;
                   <span className="underline">TECH TEAM</span> Members&nbsp;
                 </h1>
