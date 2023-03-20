@@ -199,7 +199,7 @@ const Team = () => {
               <div className="text-center">
                 <h1 className="display-6 fw-bold pt-5 mb-5">
                   CIIC&nbsp;
-                  <span className="underline">TECH TEAM</span> Members&nbsp;
+                  <span className="underline">EXPERT POOL</span> Members&nbsp;
                 </h1>
                 <p className="fs-5 text-muted mb-5">
                   Group of advanced skilled Tech Enthusiasts.
@@ -213,8 +213,8 @@ const Team = () => {
                 <img src="https://cdn-icons-png.flaticon.com/512/4128/4128176.png" />
               </div>
               <div className="caption">
-                <h3>Om Sharma</h3>
-                <p>Full Stack Developer</p>
+                <h3>Vishal Kumar</h3>
+                <p>5FINTECH</p>
                 <div className="social-links">
                   <a href="#"><BsGithub /></a>
                   <a href="#"><FaInstagram /></a>
@@ -227,8 +227,8 @@ const Team = () => {
                 <img src="https://cdn-icons-png.flaticon.com/512/4128/4128176.png" />
               </div>
               <div className="caption">
-                <h3>Somnath Paul</h3>
-                <p>UX/UI Designer</p>
+                <h3>Om Sharma</h3>
+                <p>4BCA</p>
                 <div className="social-links">
                   <a href="#"><BsGithub /></a>
                   <a href="#"><FaInstagram /></a>
@@ -242,7 +242,7 @@ const Team = () => {
               </div>
               <div className="caption">
                 <h3>Samyak Jain</h3>
-                <p>Web Developer</p>
+                <p>4BCA</p>
                 <div className="social-links">
                   <a href="#"><BsGithub /></a>
                   <a href="#"><FaInstagram /></a>
@@ -260,7 +260,7 @@ const Team = () => {
               <div className="text-center">
                 <h4 className="display-6 fw-bold  pt-5 mb-5">
                   CIIC 
-                  <span className='underline'> EXPERT POOL  </span>
+                  <span className='underline'> TECH TEAM  </span>
                   MEMBERS
                 </h4>
                 <p className="fs-5 text-muted mb-5">

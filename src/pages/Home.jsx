@@ -412,7 +412,7 @@ function Home() {
 				<section>
 					{/* Start: Hero Clean Reverse */}
 					<div className="container py-4 py-xl-5 mt-5">
-					<h1 className="fw-bold text-center mb-5 mt-5">CIIC <span className="underline">Events</span>  Highlights</h1>
+					<h1 className="fw-bold text-center mb-5 mt-5">CIIC <span className="underline">EVENT</span>  HIGHLIGHTS</h1>
 						<div className="row gy-4 gy-md-0">
 							<div className="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
 								<div>
@@ -427,69 +427,19 @@ function Home() {
 							<div className="col">
 								<div style={{ maxWidth: "450px", marginLeft: "16px" }}>
 									<h3
-										className="fw-bold pb-md-4 mt-5"
+										className="fw-bold pb-md-4"
 										style={{ fontSize: "34.752px" }}
 									>
 										<span className="underline" style={{ fontWeight: "bold" }}>
-											Ideathon
+											SYNERGY
 										</span>
-										&nbsp;<strong>for Society 5.0</strong>
 									</h3>
 									<p className="text-muted py-4 py-md-0">
 										<span style={{ color: "rgb(0, 0, 0)" }}>
-											Christ Innovation and Incubation Centre (CIIC) is
-											organizing an event called 'Ideathon for Society 5.0' on
-											Saturday, 17th September 2022. Some stalls will also be
-											set up on the new basketball court, which will be an
-											opportunity for all the small business owners and budding
-											entrepreneurs to promote their business, be it food,
-											product sales, or services. Since the number of stalls
-											will be limited, they will be allotted on a first come
-											first serve basis.
+										We at CIIC [Christ Incubation and Innovation Centre in collaboration with the Entrepreneurial Club of CUSBMA and Reckons Aisle, the Commerce Association bring to you a massive opportunity to meet the most passionate, supremely admired, deeply dedicated Entrepreneurs of India, at our Mega Event- Entrepreneurial Conclave“Synergy”on 27 th February 2023 from 11:00 a.m. onwards in the auditorium.
 										</span>
 									</p>
-									<div className="row gy-4 row-cols-2 row-cols-md-2">
-										<div className="col">
-											<div>
-												<span className="fs-2 fw-bold text-primary bg-warning">
-													500$
-												</span>
-												<p className="fw-normal text-muted">
-													&nbsp;Worth Gifts and rewards
-												</p>
-												<p className="fw-normal text-muted" />
-											</div>
-										</div>
-										<div className="col">
-											<div>
-												<span className="fs-2 fw-bold text-primary bg-warning">
-													150+
-												</span>
-												<p className="fw-normal text-muted">Participations</p>
-											</div>
-										</div>
-										<div className="col">
-											<div>
-												<span className="fs-2 fw-bold text-primary bg-warning">
-													1200+
-												</span>
-												<p className="fw-normal text-muted">
-													Campus across reach
-												</p>
-											</div>
-										</div>
-										<div className="col">
-											<div>
-												<span className="fs-2 fw-bold text-primary bg-warning">
-													50+
-												</span>
-												<p className="fw-normal text-muted">
-													CIIC Co-ordinators&nbsp;
-												</p>
-											</div>
-										</div>
-									</div>
-										<button class="btn btn-style btn-primary " onClick={(e) => { e.preventDefault(); window.location.href = '/events'; }}>Read more</button>
+										<button class="btn btn-style btn-primary " onClick={(e) => { e.preventDefault(); window.location.href = 'https://www.linkedin.com/posts/christ-innovation-and-incubation-center_team-management-event-activity-7038095172341014528-RknV/?utm_source=share&utm_medium=member_desktop'; }}>Read more</button>
 								</div>
 							</div>
 						</div>
