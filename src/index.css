@@ -5,6 +5,13 @@
 * {
   text-decoration: none !important;
 }
+/* .img{
+  width: 130px !important ;
+}
+.img img{
+width: 100%;
+}
+ */
 
 .btn {
   --clr-font-main: hsla(0 0% 20% / 100);
