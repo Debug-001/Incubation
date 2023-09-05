@@ -5,13 +5,6 @@
 * {
   text-decoration: none !important;
 }
-/* .img{
-  width: 130px !important ;
-}
-.img img{
-width: 100%;
-}
- */
 
 .btn {
   --clr-font-main: hsla(0 0% 20% / 100);
@@ -65,13 +58,16 @@ width: 100%;
   transition: 0.4s;
 }
 
-/* .accordion-button:hover{
-	box-shadow:  10px 10px 10px rgba(102, 196, 255, 0.2);
-	transition: all .4s ease-in-out !important;
+#navcon{
+  max-width: 1131px !important;
+}
 
-} */
+#profile-con{
+  max-width: 1235px !important;
+}
 
 nav {
+  /* padding: 0 70px 0 155px !important; */
   background-color: rgb(214, 253, 251) !important;
   font-weight: bold;
 }
@@ -198,6 +194,7 @@ nav {
   box-shadow: 0 0 22px #3336;
   transition: 0.6s;
   margin: 0 25px;
+  
 }
 
 .profile-card:hover {

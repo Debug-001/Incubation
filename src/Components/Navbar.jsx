@@ -7,14 +7,14 @@ const Navbar = () => {
 					className="navbar navbar-light navbar-expand-md fixed-top navbar-shrink py-3"
 					id="mainNav"
 				>
-					<div className="container">
+					<div className="container" id="navcon">
 						<img
 							id="logo"
 							src="img/logo.png"
 							style={{ width: "90px" }}
 						/>
 						<a className="navbar-brand d-flex align-items-center" href="/">
-							<span>Incubation Center</span>
+							<span>Christ Innovation & Incubation Center</span>
 						</a>
 						<button
 							data-bs-toggle="collapse"
